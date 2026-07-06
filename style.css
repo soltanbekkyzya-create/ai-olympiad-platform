@@ -1,59 +1,83 @@
-<!DOCTYPE html>
-<html lang="kk">
+/* Жалпы стиль */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Olympiad Platform</title>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,#0f172a,#1e3a8a,#2563eb);
+    color:white;
+    line-height:1.7;
+}
 
-    <link rel="stylesheet" href="style.css">
-</head>
+/* Жоғарғы бөлім */
+header{
+    text-align:center;
+    padding:80px 20px;
+}
 
-<body>
+header h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
 
-<h1>Жасанды интеллект негізінде информатика пәнінен олимпиадаға даярлау платформасы</h1>
+header p{
+    font-size:20px;
+    color:#dbeafe;
+}
 
-<h2>Автор</h2>
+/* Контейнер */
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
 
-<p>
-Солтанбекқызы Алия<br>
-PhD докторанты<br>
-С. Аманжолов атындағы Шығыс Қазақстан университеті
-</p>
+/* Бөлімдер */
+section{
+    background:white;
+    color:#222;
+    margin:40px 0;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.2);
+}
 
-<hr>
+section h2{
+    color:#2563eb;
+    margin-bottom:20px;
+}
 
-<h2>Диссертация тақырыбы</h2>
+ul{
+    padding-left:20px;
+}
 
-<p>
-Орта білім беру жүйесінде информатика пәнінен олимпиадаға даярлау процесінде
-жасанды интеллект элементтерін қолдануға негізделген әдістеме.
-</p>
+li{
+    margin:10px 0;
+}
 
-<hr>
+/* Батырма */
+.button{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:10px;
+    margin-top:25px;
+    transition:.3s;
+}
 
-<h2>Зерттеу мақсаты</h2>
+.button:hover{
+    background:#1d4ed8;
+    transform:translateY(-3px);
+}
 
-<p>
-Информатикадан олимпиадаға даярлау процесінде жасанды интеллект
-элементтерін қолданудың тиімді әдістемесін әзірлеу.
-</p>
-
-<hr>
-
-<h2>Платформа бөлімдері</h2>
-
-<ul>
-    <li>Басты бет</li>
-    <li>Автор туралы</li>
-    <li>Диссертация</li>
-    <li>AI құралдары</li>
-    <li>Олимпиада тапсырмалары</li>
-    <li>Ғылыми мақалалар</li>
-    <li>Зерттеу нәтижелері</li>
-    <li>Байланыс</li>
-</ul>
-
-</body>
-
-</html>
+/* Төменгі бөлік */
+footer{
+    text-align:center;
+    padding:30px;
+    color:white;
+}
